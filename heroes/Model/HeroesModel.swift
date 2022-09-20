@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+struct Hero: Codable, Identifiable {
+    let id: Int
+    let name: String
+    let images: Images?
+    
+    enum CodingKeys: String, CodingKey {
+        case id
+        case name
+        case images
+    }
+}
