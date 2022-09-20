@@ -6,15 +6,20 @@
 //
 
 import SwiftUI
+import URLImage
 
-struct Image: View {
+struct Img: View {
+    var url: String?
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        guard let u = URL(string: url ?? "") else {
+            return AnyView(Text("Loading..."))
+        }
+        return AnyView(URLImage(url:u){ image in
+            image
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+        })
     }
 }
 
-struct Image_Previews: PreviewProvider {
-    static var previews: some View {
-        Image()
-    }
-}

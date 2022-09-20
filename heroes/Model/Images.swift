@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+struct Images: Codable {
+    let large: String
+    
+    enum CodingKeys: String, CodingKey {
+        case large = "lg"
+    }
+}

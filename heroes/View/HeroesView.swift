@@ -8,8 +8,19 @@
 import SwiftUI
 
 struct HeroesView: View {
+    @ObservedObject var viewModel = HeroesViewModel()
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView{
+            List(viewModel.heroes){ hero in
+                HStack{
+                    VStack(alignment: .leading){
+                        NavigationLink(destination: HeroView(id: hero.id)){
+                            Text(hero.name)
+                        }
+                    }
+                }
+            }.navigationTitle("Heroes")
+        }
     }
 }
 
