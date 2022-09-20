@@ -20,6 +20,7 @@
 		B13A3EB328D9C21800FCB046 /* HeroesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13A3EB228D9C21800FCB046 /* HeroesView.swift */; };
 		B13A3EB528D9C2A900FCB046 /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13A3EB428D9C2A900FCB046 /* HeroView.swift */; };
 		B13A3EB828D9C35800FCB046 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13A3EB728D9C35800FCB046 /* Image.swift */; };
+		B13A3EBA28D9D34B00FCB046 /* Powerstats.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13A3EB928D9D34B00FCB046 /* Powerstats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		B13A3EB228D9C21800FCB046 /* HeroesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesView.swift; sourceTree = "<group>"; };
 		B13A3EB428D9C2A900FCB046 /* HeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
 		B13A3EB728D9C35800FCB046 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		B13A3EB928D9D34B00FCB046 /* Powerstats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Powerstats.swift; sourceTree = "<group>"; };
 		B6660909F616F927099DB130 /* Pods-heroes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-heroes.release.xcconfig"; path = "Target Support Files/Pods-heroes/Pods-heroes.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +109,7 @@
 			children = (
 				B13A3EA528D9B9D400FCB046 /* HeroesModel.swift */,
 				B13A3EAF28D9C14F00FCB046 /* Images.swift */,
+				B13A3EB928D9D34B00FCB046 /* Powerstats.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				B13A3EB028D9C14F00FCB046 /* Images.swift in Sources */,
 				B13A3E9928D9B97B00FCB046 /* ContentView.swift in Sources */,
 				B13A3EB528D9C2A900FCB046 /* HeroView.swift in Sources */,
+				B13A3EBA28D9D34B00FCB046 /* Powerstats.swift in Sources */,
 				B13A3EA628D9B9D400FCB046 /* HeroesModel.swift in Sources */,
 				B13A3EA928D9BB7A00FCB046 /* HeroViewModel.swift in Sources */,
 				B13A3EB328D9C21800FCB046 /* HeroesView.swift in Sources */,

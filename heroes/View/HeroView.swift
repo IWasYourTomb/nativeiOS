@@ -14,9 +14,12 @@ struct HeroView: View {
     
     var body: some View {
         VStack{
+            Img(url: viewModel.hero?.images?.large ?? "" )
             Text(viewModel.hero?.name ?? "")
                 .font(.title)
-            Img(url: viewModel.hero?.images?.large ?? "" )
+            Text("Power \(viewModel.hero?.powerstats?.power ?? 0)")
+                .font(.title)
+            
         }.onAppear{
             self.viewModel.getHero(id: self.id ?? 0)
         }
